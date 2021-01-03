@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>on and off</title>
+        <script>
+            function on()
+            {
+                document.getElementById("h1").src="bulb.jpg";
+            }
+            function off()
+            {
+                document.getElementById("h1").src="offbulb.jfif";
+            }
+        </script>
+    </head>
+<body>
+<button onclick="on()">turn on the light</button>
+<img  id="h1" src="offbulb.jfif" width="300" height="300"\>
+<button onclick="off()">turn off the light</button>
+
+</body>
+</html>
